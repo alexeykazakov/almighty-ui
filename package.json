@@ -7,7 +7,8 @@
     "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "typings": "typings"
+    "typings": "typings",
+    "docker:run": "tsc && lite-server"
   },
   "author": "Joshua Wilson <josh@redhat.com>",
   "license": "Apache-2.0",
@@ -37,4 +38,3 @@
     "typings":"^1.0.4"
   }
 }
-
